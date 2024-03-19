@@ -1,0 +1,4 @@
+<h2 style="">CÁCH THỨC HOẠT ĐỘNG F_GRAB APP</h2>
+<p style="font-size: 20px;">1) Nếu bạn không có phương tiện đến trường FPT QUY NHƠN hãy tham gia đăng kí trở thành STUDENT để các DRIVER có thể giúp đỡ chở bạn đến trường</p>
+<p style="font-size: 20px;" >2) Nếu bạn có phương tiện đi lại và có lòng hảo tâm muốn giúp đở các bạn sinh viên FPT (cùng lộ trình) đi đến trường thì hãy đăng kí trở thành DRIVER</p>
+<p style="font-size: 20px;" >3) Các Driver và Student sẽ được tiếp cận list người hỗ trợ từ F-GRAB APP, hãy xem xét lộ trình của mình và so sánh với vị trí đối phương. Nếu bạn thấy phù hợp có thể tiện giúp đỡ/được giúp đỡ thì hãy chủ động liên hệ đối phương. </p>
