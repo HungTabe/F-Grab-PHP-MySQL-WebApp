@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Prompt</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Prompt</h1>
+<a href="javascript:void(0);" onclick="showPrompt()">Click here to show prompt</a>
+<script>
+function showPrompt() {
+  var div = document.createElement("div");
+  div.innerHTML = "Enter the admin password:";
+  div.className = "prompt";
+  var input = document.createElement("input");
+  input.type = "password";
+  input.id = "password";
+  div.appendChild(input);
+  var button = document.createElement("button");
+  button.innerHTML = "OK";
+  button.onclick = function() {
+    var password = document.getElementById("password").value;
+    if (password === "123456") {
+      window.location.href = "module/quanlydanhmucdr/xuly.php?Dri_IDE=<?php echo $row['Dri_IDE'] ?>";
+    } else {
+      alert("Incorrect password");
+      div.style.display = "block";
+    }
+  };
+  var closeButton = document.createElement("button");
+  closeButton.innerHTML = "Close";
+  closeButton.onclick = function() {
+    div.style.display = "none";
+  };
+  div.appendChild(button);
+  div.appendChild(closeButton);
+  document.body.appendChild(div);
+}
+</script>
+
+<style type="text/css">
+  .prompt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+</style>
+</body>
+</html>
